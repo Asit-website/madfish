@@ -1,0 +1,943 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy", sans-serif !important;
+    /* overflow-x: hidden; */
+
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+.banner {
+   
+    padding: 80px 18px;
+    background-image: url("./images/banner\ background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.head-part h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 0px !important;
+    overflow: hidden;
+
+}
+
+
+.head-part span {
+
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #F79518;
+    margin-bottom: 0px !important;
+
+}
+
+
+
+.para-part p {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #d3cfcf;
+    max-width: 47em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px !important;
+
+}
+
+
+/* banner 1 css ends here */
+
+.banner-mad-1 {
+
+    padding: 100px 18px 60px 18px;
+    background: linear-gradient(180deg, #FFFBF4 0%, #FFFFFF 100%);
+
+
+}
+
+.button-sec button {
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 183px !important;
+    height: 50px !important;
+    background-color: #F79518;
+    color: #FFFFFF !important;
+    border-radius: 5px !important;
+
+}
+
+.Upper-Topic p {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.Head-part h2 {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.Head-part span {
+
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    color: #F79518;
+    margin-bottom: 0px !important;
+
+}
+
+.Paragraph-part p {
+
+    max-width: 33em;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.content-inner-part {
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.content-part {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Both-one {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.both-right img{
+   max-width: 100%;
+   width: 100%;
+}
+
+@media (max-width:900px) {
+
+    .Both-one{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .both-right img{
+        max-width: 600px;
+        width: 100%;
+     }
+     
+}
+
+
+/* 2nd banner css ends here */
+
+.banner-mad-2 {
+    padding: 40px 18px 30px 18px;
+
+}
+
+.mad-fish-cont {
+    max-width: 1240px !important;
+}
+
+
+.stats-head h2 {
+
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.stats-head b {
+
+    border-left: 8px solid #F79518;
+    padding-left: 15px;
+
+}
+
+.stats-para p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px !important;
+    color: #363636;
+    padding-left: 20px;
+
+
+}
+
+.stats-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.stat-main {
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+/* section 3 css ends here */
+
+.mad-card-heading h2 {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.mad-card-heading span {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #F79518;
+    margin-bottom: 0px !important;
+
+}
+
+.card-part-content {
+
+    background: #FEF0D8;
+    width: 670px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 35px 0px 35px;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 459px;
+
+}
+.card-part-heading{
+    overflow: hidden;
+}
+.card-part-para{
+    overflow: hidden;
+}
+
+.card-part-image{
+    overflow: hidden;
+}
+
+
+.card-part-heading h2 {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #15202E;
+    overflow: hidden;
+    margin-bottom: 0px !important;
+
+}
+
+.card-part-para p {
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1B1B1BD9;
+    /* margin-bottom: 0px !important; */
+    /* overflow: hidden; */
+
+}
+
+.mad-inner-card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+
+}
+
+.card-part-image img {
+
+    max-width: 617px;
+    width: 100%;
+    height: 260px;
+
+}
+
+/* mad-card 1 css  ends here */
+
+.card-two-part-content {
+
+    background: #B1D8FC;
+    width: 505px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px 35px;
+    border-radius: 16px;
+    height: 460px;
+
+}
+
+.card-two-part-heading h2 {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #15202E;
+    text-align: center;
+    margin-bottom: 0px !important;
+
+}
+
+.card-two-part-para p {
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 0px !important;
+
+}
+
+.mad-inner-card-two {
+    position: relative;
+    bottom: 120px;
+}
+
+.two-mad-cards {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.Four-mad-cards {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.mad-card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner-mad-3 {
+    padding: 40px 18px;
+}
+.cont-3{
+    max-width: 1240px !important;
+    margin: 0 auto;
+}
+
+.card-two-part-image-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban3-connta{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.first_ban3cont{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ban3_item1{
+    max-width: 705px;
+    width: 100%;
+    height: 508px;
+    overflow: hidden;
+    /* height: fit-content; */
+    background: #FEF0D8;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+padding: 50px 35px 0px 50px;
+}
+
+.ban3_content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ban3_item1 h2{
+    font-family: Gilroy-Bold;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #15202E;
+}
+
+.ban3_item1 p{
+    font-family: Gilroy-Regular;
+font-size: 17px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #1B1B1BD9;
+
+}
+
+.ban3_item1 img{
+    max-width: 617px;
+    width: 100%;
+    /* max-height: 300px; */
+    /* height: 90%; */
+}
+
+@media (max-width:992px) {
+    .first_ban3cont{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.ban3_item2{
+    max-width: 505px;
+    height: 508px;
+width: 100%;
+    background: #B1D8FC;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-radius: 16px;
+    padding: 40px 42px;
+}
+
+.ban3_item2 img{
+max-width: 267px;
+width: 100%;
+}
+.ban3_itemcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+}
+.ban3_itemcontent p{
+    text-align: center;
+    font-family: Gilroy-Regular;
+font-size: 17px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+color: #1B1B1BD9;
+
+}
+.ban3_itemcontent h2{
+    font-family: Gilroy-Bold;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: #15202E;
+}
+/* this section css ends here */
+
+.cont-4{
+padding: 40px 18px;
+}
+.employee-mad-heading h2 {
+
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.employee-mad-heading span {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #F79518;
+
+}
+
+.employee-mad-paragraph p {
+
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+.employee-mad{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.employee-mad-main{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.employee-mad-three{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+    justify-content: center;
+}
+.image-sec{
+    position: relative;
+}
+.ik1{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+}
+.employee-one{
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+}
+
+.image-sec-content{
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: center;
+    width: 100%;
+
+}
+.image-sec-content h2{
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+color: #F79518;    
+
+}
+.image-sec-content p{
+
+    font-family: Gilroy-Medium;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #FFFFFFD9;
+
+
+}
+/* banner 4 ends here */
+
+.banner-5-info{
+    position: relative;
+    isolation: isolate;
+    background: #FEF0D880;
+    padding: 90px 18px ;
+    
+
+}
+
+
+
+/* banner 11 css */
+
+.banner-11 {
+    padding: 80px 18px;
+    background-image: url("./images/down-banner\ background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-main-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.down-para p {
+
+    max-width: 49em;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.head-part-11 h2 {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0px !important;
+
+
+}
+
+.head-part-11 span {
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #F79518;
+
+}
+
+.button-sec button {
+
+    display: flex;
+    gap: 13.75;
+    gap: 13.75px;
+    align-items: center;
+    justify-content: center;
+    width: 228px !important;
+    height: 50px !important;
+    background-color: #F79518;
+    color: #FFFFFF !important;
+    border-radius: 5px !important;
+
+}
+
+.ban-5-cint{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.ba5_content{
+    max-width: 650px;
+    width: 100%;
+    height: 412px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    justify-content: center;
+    padding: 0px 16px;
+    right: 0;
+    transform: translateY(100px) translateX(-17%); 
+    background-image: url("./images/down-banner\ background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b5paras{
+position: relative;
+}
+.downabsolute{
+    position: absolute;
+    right:35%;
+    bottom: 0;
+}
+.b5paras p{
+padding: 0px 19px;
+font-family: Gilroy-Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+color: #FFFFFFD9;
+
+}
+
+.name_content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name_content h3{
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+color: #F79518;    
+}
+
+.name_content p{
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+color: #FFFFFF;    
+}
+@media (max-width:940px) {
+    .stat-main{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+    .stats-content{
+        margin: 0 auto;
+
+    }
+}
+@media (max-width:540px) {
+    .stat-main{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 30px;
+    }
+    .stats-content{
+      width: 235px ;
+
+    }
+}
+
+
+@media (max-width:600px) {
+    
+    .head-part h2 {
+       font-size: 32px;
+       line-height: 42px;
+    }
+    
+    
+    .head-part span {
+    
+        font-size: 32px;
+        line-height: 42px;
+    
+    }
+    .para-part p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .Head-part span{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .Head-part h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .Paragraph-part p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-mad-1{
+        padding: 60px 18px;
+    }
+    }
+    
+    
+@media (max-width:1200px) {
+    .ba5_content{
+        transform: translateY(100px) translateX(-5%); 
+
+    }
+}
+@media (max-width:1130px) {
+    .ba5_content{
+        transform: translateY(100px) translateX(-13%); 
+        max-width: 550px;
+
+    }
+
+    .grouimg{
+        max-width: 550px;
+    }
+}
+@media (max-width:1040px) {
+    .ba5_content{
+        transform: translateY(100px) translateX(0); 
+        max-width: 550px;
+
+    }
+
+    .grouimg{
+        max-width: 550px;
+    }
+}
+@media (max-width:992px) {
+    .ba5_content{
+      transform: translateX(0) translateY(0);
+        position: relative;
+        max-width: 100%;
+   height: fit-content;
+   padding: 60px 16px;
+    }
+
+    .ban-5-cint{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grouimg{
+max-width: 600px;
+    }
+    
+}
+
+
+@media (max-width:700px) {
+    .ba5_content{
+     padding: 30px 16px;
+      }
+      .b5paras p{
+        font-size: 16px;
+        line-height: 26px;
+      }
+  
+      .name_content h3{
+        font-size: 20px;
+        line-height: 30px;
+        
+      }
+      .name_content{
+        gap: 0px;
+      }
+      .name_content p{
+       font-size: 13px;
+       line-height: 23px;
+
+      }
+}
+
+@media only screen and (max-width:612px){
+    .image-sec img{
+        width: 100% !important;
+    }
+    .grouimg{
+      width: 100% !important;  
+      max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .ban3_item2{
+        width: 100% !important;
+        height: auto !important;
+    }
+}

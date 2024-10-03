@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bobbythedog/Gilroy@master/webFonts/Gilroy-Regular.woff2" /> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="madfish-navbar" class="madfishNav1">
+        <div class="container">
+          <div class="navbar">
+  
+            <div class="madfish-logo">
+              <img id="logo-sign" src="./images/madfish-logo 1.png" alt="#" />
+            </div>
+  
+            <div class="burger-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.0048 4.00752C20.6451 4.00752 25.2854 4.00538 29.9257 4.00109C30.7124 4.00109 31.374 4.16843 31.7733 4.88932C31.9191 5.13705 31.9971 5.41668 31.9998 5.7017C32.0025 5.98672 31.9298 6.26769 31.7888 6.51796C31.6477 6.76823 31.4429 6.97951 31.1937 7.13176C30.9446 7.28402 30.6593 7.3722 30.365 7.38796C30.2106 7.39954 30.0549 7.39954 29.8991 7.39954C20.6398 7.39954 11.3814 7.40211 2.1238 7.40726C1.31048 7.40726 0.62628 7.23734 0.222948 6.492C0.0801059 6.24175 0.0063683 5.96012 0.00884968 5.67428C0.0113311 5.38845 0.0899507 5.10805 0.237117 4.86016C0.384284 4.61226 0.59503 4.40523 0.849027 4.25904C1.10302 4.11284 1.3917 4.03243 1.68719 4.02555C3.32847 3.98178 4.97241 4.00752 6.61236 4.00752H16.0048Z"
+                  fill="black"
+                />
+                <path
+                  d="M10.7471 14.3057H19.5325C20.238 14.3057 20.7731 14.5851 21.1112 15.1901C21.2737 15.4607 21.352 15.771 21.3367 16.0836C21.3213 16.3962 21.213 16.6979 21.0247 16.9524C20.8705 17.1904 20.6536 17.3845 20.3964 17.5148C20.1391 17.645 19.8506 17.7069 19.5605 17.6939H15.631C11.0586 17.6939 6.48481 17.6939 1.91106 17.6939C0.48675 17.6939 -0.389141 16.4709 0.171264 15.2995C0.514695 14.5786 1.13633 14.2967 1.94832 14.3006C4.8768 14.3134 7.80528 14.3006 10.7338 14.3006L10.7471 14.3057Z"
+                  fill="black"
+                />
+                <path
+                  d="M6.22025 24.6042C7.66319 24.6042 9.10612 24.5939 10.5491 24.6042C11.7258 24.6158 12.4353 25.2762 12.4273 26.3176C12.4193 27.3268 11.7138 27.9846 10.5744 27.9911C7.68848 28.0031 4.80437 28.0031 1.92203 27.9911C0.769276 27.9911 0.0145276 27.2843 0.0265078 26.279C0.0384879 25.2968 0.781247 24.6183 1.89673 24.6055C3.33435 24.6042 4.77731 24.6042 6.22025 24.6042Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+  
+            <ul class="nav_itemss">
+  
+              <div class="home">
+  
+                <li class="tr">
+                  <a id="in" href="index.html">Home</a>
+                </li>
+  
+              </div>
+  
+              <li class="tr">
+                <a href="#"
+                  >What We Do
+                  <span>
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.1094 0.25L5.78125 4.57812L1.4375 0.25L0 1.6875L5.76562 7.75L11.5469 1.6875L10.1094 0.25Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </a>
+  
+                <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="#">Bigcommerce</a></li>
+                    <li><a href="#">Custom Website Design</a></li>
+                    <li><a href="#">Headless commerce</a></li>
+                    <li><a href="#">Gun friendly</a></li>
+                  </ul>
+                </div>
+  
+              </li>
+  
+              <li class="tr"><a href="work.html">Our Work</a></li>
+              <li class="tr"><a href="about.html">About Us</a></li>
+              <li class="tr"> <a href="#">OUR TEAM</a></li>
+              <li class="tr"><a href="#">OUR PARTNERS</a></li>
+              <li class="tr"><a href="#">E-COMMERCE IN ACTION</a></li>
+              <li class="tr"><a href="#">GET STARTED</a></li>
+  
+            </ul>
+  
+            <img src="./images/8867520.png" class="hambugur" alt="">
+  
+          </div>
+        </div>
+  
+        <div class="smallnavitems">
+  
+          <ul class="nav_itemss2">
+  
+              <div class="home2">
+  
+                <li class="tr">
+                  <a id="in" href="index.html">Home</a>
+                </li>
+  
+              </div>
+  
+              <li class="tr2 makeitpost">
+  
+                <a href="#"
+                  >What We Do
+                  <span>
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.1094 0.25L5.78125 4.57812L1.4375 0.25L0 1.6875L5.76562 7.75L11.5469 1.6875L10.1094 0.25Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </a>
+  
+                <div class="dropdown-menu2">
+                  <ul>
+                    <li><a href="#">Bigcommerce</a></li>
+                    <li><a href="#">Custom Website Design</a></li>
+                    <li><a href="#">Headless commerce</a></li>
+                    <li><a href="#">Gun friendly</a></li>
+                  </ul>
+                </div>
+  
+              </li>
+  
+              <li class="tr2"><a href="work.html">Our Work</a></li>
+              <li class="tr2"><a href="about.html">About Us</a></li>
+              <li class="tr2"> <a href="#">OUR TEAM</a></li>
+              <li class="tr2"><a href="#">OUR PARTNERS</a></li>
+              <li class="tr2"><a href="#">E-COMMERCE IN ACTION</a></li>
+              <li class="tr2"><a href="#">GET STARTED</a></li>
+  
+            </ul>
+  
+        </div>
+  
+      </div>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <div class="content-main">
+
+                            <div class="head-part">
+                                <h2>Your Partner in <span>E-Commerce</span> Success.</h2>
+                            </div>
+
+                            <div class="para-part">
+                                <p>MadFish Solutions is a dynamic digital agency dedicated to transforming e-commerce
+                                    businesses through innovative strategies and customized digital solutions.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="banner-mad-1">
+
+        <div class="coontainer">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="Both-one">
+                        <div class="both-left">
+                            <div class="content-part">
+
+                                <div class="content-inner-part">
+
+                                    <div class="Upper-Topic">
+                                        <p>Who are we and what we do</p>
+                                    </div>
+
+                                    <div class="Head-part">
+
+                                        <h2>Leading the Way in
+                                            <br> <span>E-Commerce Innovation</span>
+                                        </h2>
+
+                                    </div>
+
+                                    <div class="Paragraph-part">
+                                        <p>MadFish Solutions is a dynamic digital agency dedicated to transforming
+                                            e-commerce businesses through innovative strategies and customized digital
+                                            solutions. With a team of seasoned professionals passionate about helping
+                                            businesses succeed online, we provide a full suite of services designed to
+                                            elevate your brand and drive measurable growth.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="button-sec">
+
+                                    <button type="button" class="btn btn-warning">GET STARTED<span>
+                                            <img src="./images/Vector.svg" alt="">
+                                        </span></button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="both-right">
+                            <div class="Image-part">
+
+                                <img src="./images/Side-image.png" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="banner-mad-2">
+
+        <div class="container mad-fish-cont ">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="stat-main">
+                        <div class="stats-content">
+                            <div class="stats-head">
+                                <h2><b>300+</b></h2>
+                            </div>
+                            <div class="stats-para">
+                                <p>successfull projects</p>
+                            </div>
+                        </div>
+                        <div class="stats-content">
+                            <div class="stats-head">
+                                <h2><b>25+</b></h2>
+                            </div>
+                            <div class="stats-para">
+                                <p>Years of Industry Experience</p>
+                            </div>
+                        </div>
+                        <div class="stats-content">
+                            <div class="stats-head">
+                                <h2><b>95%</b></h2>
+                            </div>
+                            <div class="stats-para">
+                                <p>Client Satisfaction Rate</p>
+                            </div>
+                        </div>
+                        <div class="stats-content">
+                            <div class="stats-head">
+                                <h2><b>50%</b></h2>
+                            </div>
+                            <div class="stats-para">
+                                <p>Average Revenue Increase</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="banner-mad-3">
+
+        <!-- <div class="container cont-3">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="mad-card-main">
+
+                        <div class="mad-card-heading">
+                            <h2>Why Partner with <span>MadFish Solutions</span><br>for Unmatched E-Commerce Success
+                            </h2>
+
+                        </div>
+
+                        <div class="Four-mad-cards">
+
+                            <div class="two-mad-cards">
+
+                                <div class="card-part-content">
+                                    <div class="mad-inner-card">
+                                        <div class="card-part-heading">
+                                            <h2>Proven Expertise</h2>
+                                        </div>
+                                        <div class="card-part-para">
+                                            <p>With over a decade of experience in the e-commerce industry, our team
+                                                brings
+                                                deep
+                                                knowledge and a proven track record of success. We understand the
+                                                challenges
+                                                you
+                                                face and know how to overcome them.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-part-image">
+                                        <img src="./images/Card-mad-1.png" alt="">
+                                    </div>
+
+                                </div>
+
+                                <div class="card-two-part-content">
+
+                                    <div class="card-two-part-image-new">
+                                        <img src="./images/Card-mad-2.png" alt="">
+                                    </div>
+
+                                    <div class="mad-inner-card-three">
+                                        <div class="card-two-part-heading">
+                                            <h2>Tailored Solutions</h2>
+                                        </div>
+                                        <div class="card-two-part-para">
+                                            <p>We don't believe in one-size-fits-all. Our services are customized to  meet  your  specific needs and goals, ensuring that you get the most effective  strategies  and results for your business.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="two-mad-cards">
+
+                                <div class="card-two-part-content">
+
+                                    <div class="card-two-part-image-new">
+                                        <img src="./images/Card-mad-3.png" alt="">
+                                    </div>
+
+                                    <div class="mad-inner-card-three">
+                                        <div class="card-two-part-heading">
+                                            <h2>Comprehensive Support</h2>
+                                        </div>
+                                        <div class="card-two-part-para">
+                                            <p>Our team is available to answer your questions, provide feedback, and
+                                                help you navigate any challenges that arise. We are your partners
+                                                dedicated to helping you achieve your business objectives.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="card-part-content">
+                                    <div class="mad-inner-card">
+                                        <div class="card-part-heading">
+                                            <h2>Certified Big Commerce Partner</h2>
+                                        </div>
+                                        <div class="card-part-para">
+                                            <p>We stay ahead of the curve with the latest industry trends and
+                                                technologies. Our innovative approach ensures that your business remains
+                                                competitive and continues to grow in a rapidly evolving digital
+                                                landscape.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-part-image">
+                                        <img src="./images/Card-mad-4.png" alt="">
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+        <div class="ban3-connta">
+
+            <div class="first_ban3cont">
+
+                <!-- first  -->
+                 <div class="ban3_item1">
+                    <div class="ban3_content">
+
+                        <h2>Proven Expertise</h2>
+                        
+                        <p>With over a decade of experience in the e-commerce industry, our team brings deep knowledge and a proven track record of success. We understand the challenges you face and know how to overcome them.</p>
+                        
+                    </div>
+                    <img src="./images/Card-mad-1.png" alt="">
+
+
+                 </div>
+
+                 <!-- second -->
+
+                 <div class="ban3_item2">
+                    <img src="./images/newcard.jpg" alt="">
+
+                     <div class="ban3_itemcontent">
+
+                         <h2>Tailored Solutions</h2>
+                         
+                         <p>We don't believe in one-size-fits-all. Our services are customized to meet your specific needs and goals, ensuring that you get the most effective strategies and results for your business..</p>
+                         
+                        </div>
+
+
+                 </div>
+
+            </div>
+
+            <div class="first_ban3cont">
+
+                <!-- first  -->
+
+                <div class="ban3_item2">
+                    <img src="./images/Card-mad-3.png" alt="">
+
+                    <div class="ban3_itemcontent">
+
+                        <h2>Comprehensive Support</h2>
+                        
+                        <p>Our team is available to answer your questions, provide feedback, and help you navigate any challenges that arise. We are your partners dedicated to helping you achieve your business objectives.</p>
+                        
+                       </div>
+
+
+                </div>
+
+                                 <!-- second -->
+
+
+                 <div class="ban3_item1">
+
+                    <div class="ban3_content">
+
+
+                        <h2>Certified Big Commerce Partner</h2>
+                        
+                        <p>We stay ahead of the curve with the latest industry trends and technologies. Our innovative approach ensures that your business remains competitive and continues to grow in a rapidly evolving digital landscape.</p>
+                        
+                    </div>
+                    <img src="./images/bigcoom.png" alt="">
+
+
+                 </div>
+
+
+                 
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section class="banner-4-mad-employee">
+
+
+        <div class="container cont-4">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <div class="employee-mad">
+                        <div class="employee-mad-main">
+                            <div class="employee-mad-heading">
+                                <h2>Meet our Expert <span>Team Members</span></h2>
+                            </div>
+                            <div class="employee-mad-paragraph">
+                                <p>Discover the talented individuals driving innovation and excellence at MadFish
+                                    Solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="employee-mad-listng">
+
+                            <div class="employee-mad-three">
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-1.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-2.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-3.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-4.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-5.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                                <div class="employee-one">
+                                    <div class="image-sec">
+                                        <img src="./images/employee-6.png" alt="">
+                                        <img class="ik1" src="./images/lisk.png" alt="">
+                                    </div>
+                                    <div class="image-sec-content">
+                                        <h2>Lorem, ipsum dolor.</h2>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="banner-5-info">
+
+<div class="ban-5-cint">
+ 
+     <img src="./images/grouppimg.png" class="grouimg" alt="">
+
+     <div class="ba5_content">
+
+        <div class="b5paras">
+            <img src="images/“.png" alt="">
+            <p>I have worked with business clients for more than 30 years, and I truly believe that everyone can have a web presense that not only communicates who they are, but also drives sales. Many of the people I have worked with, that have existing sites, have doubled their sales or lead generation.</p>
+            <img src="images/“.png" class="downabsolute" alt="">
+        </div>
+
+        <div class="name_content">
+            <h3>Matt Reeder</h3>
+            <p>Founder and Chief Fish Of MadFish Solutions</p>
+        </div>
+        
+     </div>
+
+     
+</div>
+        </div>
+
+    </section>
+
+    <section class="banner-11 ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <div class="content-11">
+                        <div class="content-main-11">
+
+                            <div class="head-part-11">
+                                <h2>Ready to <span>Partner</span> with You for Success</h2>
+                            </div>
+
+                            <div class="para-part down-para">
+                                <p>We're here to help turn your entrepreneurial dreams into reality, quickly and
+                                    efficiently. Share your needs with us and let's get started!</p>
+                            </div>
+
+                        </div>
+
+                        <div class="button-sec ">
+
+                            <button type="button" class="btn btn-warning">LET’S GET STARTED<span>
+                                    <img src="./images/Vector.svg" alt="">
+                                </span></button>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script src="footer.js"></script>
+
+</body>
+
+
+
+</html>

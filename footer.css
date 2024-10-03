@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Display', sans-serif !important;
+}
+body{
+    overflow-x: hidden;
+}
+
+#footer{
+  background-color: #EDD9BE;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#footer .container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 80px 100px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+#footer .footer-main-line{
+    position: absolute;
+    top: 116px;
+    right: 125px;
+}
+#footer .footer-main-line hr{
+    width: 850px;
+    max-width: 100%;
+    border: 1px dashed  #0072BC;
+}
+#footer .footer-flex-section{
+    display: flex;
+    justify-content:space-between;
+}
+#footer .footer-first-section p{
+    width: 19em;
+    color: #101010;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 30px;
+}
+#footer .footer-first-section p span{
+    color: #101010;
+    font-size: 16px;
+    font-weight: 700;
+}
+#footer .footer-second-section ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+#footer .footer-second-section ul li a{
+    text-decoration: none;
+    color: #0069B4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; 
+}
+#footer .footer-third-section ul{
+    padding-top: 32px;
+}
+#footer .footer-third-section li{
+    list-style: none;
+    padding-top: 5px;
+}
+#footer .footer-third-section li a{
+    text-decoration: none;
+    color: #0069B4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+}
+#footer .footer-second-section h4{
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+#footer .footer-second-section ul{
+    padding-top: 32px;
+}
+.footer-line{
+    border-top: 1px dashed  #0072BC;
+    margin-top: 16px;
+    display: none;
+}
+#footer .footer-third-section h4{
+    padding-top: 20px;
+}
+#footer .contact-section p{
+    align-items: flex-start;
+    width: 20em;
+    padding-top: 5px;
+}
+.footer-second-section .footer-p-section{
+    padding-top: 32px;
+}
+#footer .footer-second-section p{
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+    padding-bottom:10px;
+}
+#footer .footer-second-section p span{
+    color: #0069B3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.96px;
+}
+#footer .contact-us-section{
+    padding-top: 25px;
+}
+#footer .contact-us-section p{
+    width: 25em;
+    color: #101010;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 0.84px;
+}
+
+#footer .input-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+}
+#footer .contact-us-section input{
+    width:100%;
+    height: 44px;
+    border-style: none;
+    padding-left: 20px;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    outline: none;
+}
+#footer .contact-us-section button{
+    width: 64px;
+    height: 44px;
+    position: absolute;
+    right:0px;
+    border-style: none;
+    outline: none;
+}
+#footer .footer-partner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -100px;
+    gap: 20px;
+}
+#footer .footer-partner-container h4{
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+#footer .footer-partner-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#footer-end-section{
+    background-color: #83683F;
+}
+
+#footer-end-section .container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px 100px;
+    display: block;
+    margin: auto;
+}
+#footer-end-section .footer-end-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#footer-end-section .footer-text p{
+    position: relative;
+    z-index: 2;
+}
+#footer-end-section .footer-text p::before{
+    content: "";
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#footer-end-section .footer-text p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.home{
+    position: relative;
+}
+.home .underline{
+    position: absolute;
+    top: 42px;
+}
+.home .underline hr{
+    width: 50px;
+    border: 2px solid #F79518;
+    margin-top: 0px;
+}
+
+
+/* --------------------@media Querry------------------ */
+
+@media only screen and (max-width:1125px) {
+    #footer .footer-flex-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 120px;
+    }
+    .contact-section{
+        padding-top: 30px;
+    }
+    #footer .footer-main-line{
+       display: none;
+    }
+}
+@media only screen and (max-width:990px){
+    #footer-end-section .footer-end-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width:725px) {
+    #footer .footer-partner-flex {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-second-section{
+        padding-top: 30px;
+    }
+    #footer .container{
+        padding: 60px 30px;
+    }
+}
+@media only screen and (max-width:525px){
+    #footer .contact-us-section p{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:455px) {
+    #footer .footer-first-section p{
+        width: 100% !important;
+    }
+    #footer-end-section .footer-text p::before{
+        height: 0px;
+    }
+    #footer-end-section .container{
+        padding: 20px 40px;
+    }
+    #footer .contact-section p{
+        width: 100%;
+    }
+    .footer-line{
+        display: block;
+        width: 100% !important;
+    }
+    #footer .footer-third-section h4{
+        padding-top: 0px;
+    }
+    #footer .footer-third-section ul{
+        padding-top: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:380px) {
+    
+    #footer .footer-second-section p{
+        letter-spacing: 0px;
+    }
+    #footer .contact-section p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:362px) {
+    #footer .contact-us-section p{
+        width: 100%;
+    }
+    #footer .contact-us-section input{
+        max-width: 300px;
+        width: 100%;
+    }
+    #footer .footer-first-section p{
+        width: 100%;
+    }
+    #footer .footer-second-section p{
+        width: 100%;
+    }
+    #footer .contact-us-section button{
+        right: 0px;
+    }
+    #footer-end-section .footer-text p::before{
+        width: 0px;
+    }
+    #footer .contact-us-section button {
+        right:0px !important;
+    }
+}
+@media only screen and (max-width:340px) {
+    #footer .contact-us-section button {
+        right:0px !important;
+    }
+}
+@media only screen and (max-width:335px) {
+    #footer .footer-second-section p{
+        width: 100%;
+    }
+    #footer .contact-us-section button {
+        right: 0px;
+    }
+}
+@media only screen and (max-width:335px) {
+    .customWe_firstSec .long-img img {
+        width: 200px;
+    }
+    .customWe_firstSec .short-img img {
+        width: 90px;
+    }
+    .short-img {
+    position: absolute;
+    right: -29%;
+    bottom: 48px;
+}
+}
